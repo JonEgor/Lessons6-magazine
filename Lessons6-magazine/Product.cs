@@ -21,9 +21,6 @@ namespace Lessons6_magazine
             this.price = price;
         }
 
-        internal object Add(Product product)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

@@ -11,14 +11,14 @@ namespace Lessons6_magazine
         internal List<Product> products;
         public void AddProduct(Product product)
         {
-            object value = product.Add(product);
+            products.Add(product);
         }
          public void Print()
         {
             Console.WriteLine(products[0].name);
             Console.WriteLine(products[0].price);
             Console.WriteLine(products[0].quantity);
-           
+          
         }
     }
 

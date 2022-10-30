@@ -12,7 +12,8 @@ namespace Lessons6_magazine
         {
             Inventorycs inventory = new Inventorycs();
             inventory.products = new List<Product>();
-            Food pizza = new Food(12, "Pizza", 5, 23.2m);
+            Food pizza = new Food(12, "Pizza", 19, 23.5m);
+            inventory.AddProduct(pizza);
             return inventory;
 
         }
