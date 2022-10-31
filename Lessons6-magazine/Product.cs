@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml.Linq;
 
 namespace Lessons6_magazine
 {
@@ -20,7 +19,20 @@ namespace Lessons6_magazine
             this.quantity = quantity;
             this.price = price;
         }
+        public class Chemical
+        {
+            public string Name { get; private set; }
+            public int Quantity { get; private set; }
+            public decimal Price { get; private set; }
 
-        
+            public Chemical(string name, int quantity, decimal price)  
+            {
+                this.Name = name;
+                this.Quantity = quantity;
+                this.Price = price;
+            }
+
+        }
     }
 }
+    

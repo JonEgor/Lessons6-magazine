@@ -13,10 +13,5 @@ namespace Lessons6_magazine
         {
             _bestBeforeDate = bestBeforeDate;
         }
-
-              
-            
-
-        
     }
 }
