@@ -10,24 +10,27 @@ namespace Lessons6_magazine
     
     internal class Product
     {
-        public string name { get; private set; }
-        public int quantity { get; private set; }
-        public decimal price { get; private set; }
+       
+
+        public string _name { get; private set; }
+        public int _quantity { get; private set; }
+        public decimal _price { get; private set; }
 
         public Product(string name, int quantity, decimal price)
         {
-            this.name = name;
-            this.quantity = quantity;
-            this.price = price;
+           _name = name;
+           _quantity = quantity;
+            _price = price;
         }
-        public class Chemical
-        {
-            public string Name { get; private set; }
-            public int Quantity { get; private set; }
-            public decimal Price { get; private set; }
-
+        
 
         }
+    
     }
-}
+
+   
+
+             
+
+
     
