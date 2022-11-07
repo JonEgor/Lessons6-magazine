@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lessons6_magazine
 {
+    
     internal class Product
     {
         public string name { get; private set; }
@@ -25,12 +26,6 @@ namespace Lessons6_magazine
             public int Quantity { get; private set; }
             public decimal Price { get; private set; }
 
-            public Chemical(string name, int quantity, decimal price)  
-            {
-                this.Name = name;
-                this.Quantity = quantity;
-                this.Price = price;
-            }
 
         }
     }
